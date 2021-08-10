@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(180, 178, 175);
+}
+
+#board{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    margin: 0px;
+    top: 100px;
+    left: 400px; 
+    border: solid black 2px;
+}
+
+.block{
+    border: black 3px solid;
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+
+#block1{
+    top: 0px;
+    left: 0px;
+}
+#block2{
+    top: 0px;
+    left: 150px;
+}
+#block3{
+    top: 0px;
+    left: 300px;
+}
+#block4{
+    top: 150px;
+    left: 0px;
+}
+#block5{
+    top: 150px;
+    left: 150px;
+}
+#block6{
+    top: 150px;
+    left: 300px;
+}
+#block7{
+    top: 300px;
+    left: 0px;
+}
+#block8{
+    top: 300px;
+    left: 150px;
+}
+#block9{
+    top: 300px;
+    left: 300px;
+}
+
+#win{
+    position: fixed;
+    margin: 100px 250px;
+    height: 400px;
+    width: 700px;
+    background-color: black;
+    border: whitesmoke solid 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    transition-delay: 500ms;
+}
+#ok{
+    position: absolute;
+    top: 400px;
+    left: 575px;
+    height: 40px;
+    width: 100px;
+    visibility: hidden;
+    transition-delay: 500ms;
+}
